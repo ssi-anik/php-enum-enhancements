@@ -63,7 +63,7 @@ enum PostStatus: string {
   return `[ "Draft" => "DRAFT", "Under_review" => "UNDER_REVIEW", "Published" => "PUBLISHED", ]` .
 - `PostStatus::kvPair(valueAsKey: false)` will
   return `[ "DRAFT" => "draft", "UNDER_REVIEW" => "under_review", "PUBLISHED" => "published", ]`
-  in **['NAME_OF_ENUM' => 'VALUE OF ENUM']** format.
+  in **['NAME_OF_ENUM' => 'VALUE_OF_ENUM']** format.
 
 # Issues?
 
