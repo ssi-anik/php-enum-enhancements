@@ -1,0 +1,21 @@
+{
+    "name": "anik/php-enum-enhancements",
+    "description": "Trait for PHP Enum type",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anik\\PhpEnumEnhancements\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syed Sirajul Islam Anik",
+            "email": "sirajul.islam.anik@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    }
+}
