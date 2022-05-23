@@ -15,13 +15,20 @@ To install the package, run
 
 ## Usage
 
-Use the `Anik\PhpEnumEnhancements\Enhancement` trait in any of your Enum and you'll have access to the following method.
+Use the `Anik\PhpEnumEnhancements\Enhancement` trait in any of your Enum, and you'll have access to the following method.
 
-- `[\UnitEnum | \BackedEnum ]::case->getName(/* null or callable */)`
-- `\BackedEnum::case->getValue(/* null or callable */)`
-- `[\UnitEnum | \BackedEnum ]::names(/* null or callable */)`
-- `\BackedEnum::values(/* null or callable */)`
-- `\BackedEnum::kvPair(/* nameCallback: null or callable, */ /* valueCallback: null or callable, */ /* valueAsKey: bool */)`
+```php
+
+# [\UnitEnum | \BackedEnum ]::case->getName(/* null or callable */)
+# \BackedEnum::case->getValue(/* null or callable */)
+# [\UnitEnum | \BackedEnum ]::names(/* null or callable */)
+# \BackedEnum::values(/* null or callable */)
+# \BackedEnum::kvPair(
+        /* nameCallback: null or callable, */ 
+        /* valueCallback: null or callable, */ 
+        /* valueAsKey: bool */
+#   )
+```
 
 ## Examples
 
